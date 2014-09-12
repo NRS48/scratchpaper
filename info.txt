@@ -1,0 +1,42 @@
+Node version: v0.10.25
+
+Cordova version: 0.21.7
+
+Config.xml file: 
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.scratchpaper803669" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>scratchpaper</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
+    </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+</widget>
+
+Plugins: 
+
+com.ionic.keyboard,org.apache.cordova.console,org.apache.cordova.device
+
+Android platform:
+
+Available Android targets:
+----------
+id: 1 or "android-19"
+     Name: Android 4.4.2
+     Type: Platform
+     API level: 19
+     Revision: 3
+     Skins: WXGA800-7in, QVGA, WSVGA, WVGA854, WXGA800, WVGA800 (default), WXGA720, WQVGA432, HVGA, WQVGA400
+ Tag/ABIs : no ABIs.
+
